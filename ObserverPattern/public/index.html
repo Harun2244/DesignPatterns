@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observer Pattern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <h1>Order</h1>
+        <label for="orderStatus">Select the order status</label>
+         <select name="" id="orderStatus">
+            <option value="NotOrdered">Not Ordered</option>
+            <option value="InProgress">In Progress</option>
+            <option value="Arrived">Arrived</option>
+         </select>
+         <button>Change</button>
+    </div>
+
+    <hr>
+
+    <h2>Quality Control: <span id="qualityControlText"></span></h2>
+    <h2>Sales Department: <span id="salesDepartmentText"></span>  </h2>
+    
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
