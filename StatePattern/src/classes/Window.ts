@@ -9,19 +9,19 @@ export class Window {
         this.state = new DesignWindowState(this);
     }
 
-    start() : string {
+    protected start() : string {
          return this.state.start();
     }
 
-    inspect() : string{
+    protected inspect() : string{
         return this.state.inspect();
     }
      
-    deliver(): string{
+    protected deliver(): string{
         return this.state.deliver();
     }
 
-    changeState(newState : WindowStates){
+     changeState(newState : WindowStates){
         this.state = newState;
     }
 
