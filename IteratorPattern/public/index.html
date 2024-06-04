@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iterator Pattern</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="windows">
+        <h2>Create and insert window into an array!</h2>
+        <form action="" id="windowform">
+          <input type="text" id="windowname" placeholder="window name" />
+          <input type="number" id="windownum" placeholder="quality grade" />
+          <input type="submit" />
+        </form>
+        <div class="welements">
+          <ul id="wList"></ul>
+        </div>
+        <div class="windowShow removeW">
+          <h2>Show current window: <span id="currWin"></span></h2>
+          <button id="currentWindow">Current Window</button>
+          <button id="nextWindow">Next Window</button>
+        </div>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="doors">
+        <h2>Create and insert door into an array!</h2>
+        <form action="" id="doorform">
+          <input type="text" id="doorname" placeholder="door name" />
+          <input type="number" id="doornum" placeholder="quality grade" />
+          <input type="submit" />
+        </form>
+        <div class="delements">
+          <ul id="dList"></ul>
+        </div>
+        <div class="doorShow removeD">
+          <h2>Show current door: <span id="currDoor"></span></h2>
+          <button id="currentDoor">Current Door</button>
+          <button id="nextDoor">Next Door</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
