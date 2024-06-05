@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decorator Pattern</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Customize your window ($7):</h2>
+    <div class="wrapper">
+      <label for="extraPaint">Add a paint layer ($1)</label>
+      <button id="extraPaint">Extra Paint</button>
+      <br />
+      <label for="extraThickness">Add a thickness layer ($3)</label>
+      <button id="extraThickness">Extra Thickness</button>
+    </div>
+    <h3>Layers of paint: <span id="paintCounter"></span></h3>
+    <h3>Thickness Level: <span id="thicknessCounter"></span></h3>
+    <hr />
+    <label for="">Get total cost</label>
+    <button id="totalCost">Total Cost</button>
+    <h1>Total Cost: <span id="totalCostTxt"></span></h1>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
